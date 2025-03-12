@@ -1,0 +1,27 @@
+{
+  "name": "beacha",
+  "version": "1.0.0",
+  "description": "Beacha is a Discord bot that offers user signup, login, and server management functionalities.",
+  "main": "src/bot.ts",
+  "scripts": {
+    "start": "ts-node src/bot.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev src/bot.ts"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "beacha"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.0",
+    "ts-node-dev": "^1.0.0"
+  }
+}

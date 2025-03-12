@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - BeachaWeb</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    {% include 'base.html' %}
+    <div class="container">
+        <h1>Welcome to BeachaWeb!</h1>
+        <h2>Your Friends</h2>
+        <ul>
+            {% for friend in friends %}
+                <li>{{ friend.name }}</li>
+            {% endfor %}
+        </ul>
+        
+        <h2>Your Servers</h2>
+        <ul>
+            {% for server in servers %}
+                <li>{{ server.name }}</li>
+            {% endfor %}
+        </ul>
+        
+        <button onclick="createServer()">Create a Beacha Server</button>
+    </div>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>

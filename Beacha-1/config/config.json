@@ -1,0 +1,14 @@
+{
+  "token": "YOUR_DISCORD_BOT_TOKEN",
+  "prefix": "!",
+  "ownerID": "YOUR_DISCORD_USER_ID",
+  "databaseURL": "YOUR_DATABASE_URL",
+  "defaultSettings": {
+    "theme": "light",
+    "serverIcon": "default.png",
+    "textFont": "Arial",
+    "textColor": "#000000",
+    "userIcon": "default_user.png",
+    "username": "NewUser"
+  }
+}
